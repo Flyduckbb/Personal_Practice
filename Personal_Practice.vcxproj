@@ -139,8 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Test_1\Project1\개인연습1일차.c" />
-    <ClCompile Include="..\Test_1\Project1\개인연습2일차.c" />
     <ClCompile Include="개인연습1일차.c" />
     <ClCompile Include="개인연습2일차.c" />
   </ItemGroup>

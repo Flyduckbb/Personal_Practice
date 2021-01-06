@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Test_1\Project1\개인연습1일차.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Test_1\Project1\개인연습2일차.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="개인연습1일차.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
