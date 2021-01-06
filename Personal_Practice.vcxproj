@@ -145,6 +145,8 @@
     <ClCompile Include="factorial_recursion.c">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
+    <ClCompile Include="power_iteration.c" />
+    <ClCompile Include="power_recursion.c" />
     <ClCompile Include="개인연습1일차.c" />
     <ClCompile Include="개인연습2일차.c" />
   </ItemGroup>
