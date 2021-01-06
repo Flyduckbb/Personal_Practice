@@ -1,14 +1,6 @@
 /*#include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
-{
-	int num;
-	scanf("%d", &num);
-	num = factorial(num);
-	printf("%d", num);
-}
-
 int factorial(int n)
 {
 	int result = 1;
@@ -18,4 +10,14 @@ int factorial(int n)
 		result *= i;
 	}
 	return(result);
+}
+
+int main(void)
+{
+	int num;
+	scanf("%d", &num);
+	num = factorial(num);
+	printf("%d", num);
+
+	return 0;
 }*/

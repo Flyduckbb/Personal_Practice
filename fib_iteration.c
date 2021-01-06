@@ -1,7 +1,7 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
-int fib(int n)
+int fib_iter(int n)
 {
 	if (n == 0) return 0;
 	if (n == 1) return 1;
@@ -25,4 +25,6 @@ int main(void)
 	scanf("%d", &num);
 	num = fib(num);
 	printf("%d", num);
-}
+
+	return 0;
+}*/

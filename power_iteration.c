@@ -18,4 +18,7 @@ int main(void)
 	scanf("%lf %d", &base, &power);
 	double outcome = Power(base ,power);
 	printf("%.2lf", outcome);
+
+	return 0;
+
 }*/

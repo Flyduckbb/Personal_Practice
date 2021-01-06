@@ -39,5 +39,8 @@
     <ClCompile Include="fib_iteration.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="hanoi_tower.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

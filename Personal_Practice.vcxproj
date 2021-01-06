@@ -147,6 +147,7 @@
     </ClCompile>
     <ClCompile Include="fib_iteration.c" />
     <ClCompile Include="fib_recursion.c" />
+    <ClCompile Include="hanoi_tower.c" />
     <ClCompile Include="power_iteration.c" />
     <ClCompile Include="power_recursion.c" />
     <ClCompile Include="개인연습1일차.c" />

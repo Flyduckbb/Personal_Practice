@@ -6,4 +6,6 @@ int main(void)
 	int year, month, day;
 	scanf("%d.%02d.%02d", &year, &month, &day);
 	printf("%02d-%02d-%d", day, month, year);
+
+	return 0;
 }*/

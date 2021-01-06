@@ -14,4 +14,6 @@ int main(void)
 	scanf("%d", &num);
 	num = fib(num);
 	printf("%d", num);
+
+	return 0;
 }*/
