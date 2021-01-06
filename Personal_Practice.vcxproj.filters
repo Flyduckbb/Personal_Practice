@@ -24,5 +24,8 @@
     <ClCompile Include="factorial_recursion.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="factorial_iteration.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
