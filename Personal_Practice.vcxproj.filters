@@ -33,5 +33,11 @@
     <ClCompile Include="power_recursion.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="fib_recursion.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fib_iteration.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

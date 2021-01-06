@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 double Power(double x, int n)
@@ -17,4 +17,4 @@ int main(void)
 	scanf("%lf %d", &base, &power);
 	double outcome = Power(base ,power);
 	printf("%.2lf", outcome);
-}
+}*/
