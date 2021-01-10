@@ -152,6 +152,7 @@
     <ClCompile Include="power_recursion.c" />
     <ClCompile Include="개인연습1일차.c" />
     <ClCompile Include="개인연습2일차.c" />
+    <ClCompile Include="Selection_Sort.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -42,5 +42,8 @@
     <ClCompile Include="hanoi_tower.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Selection_Sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
