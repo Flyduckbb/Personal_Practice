@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 void selectionSort(int A[], int n)
@@ -47,4 +47,4 @@ int main(void)
 	printf("\n");
 
 	return 0;
-}
+}*/
