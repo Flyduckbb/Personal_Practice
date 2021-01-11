@@ -148,6 +148,7 @@
     <ClCompile Include="fib_iteration.c" />
     <ClCompile Include="fib_recursion.c" />
     <ClCompile Include="hanoi_tower.c" />
+    <ClCompile Include="polynomial1.c" />
     <ClCompile Include="power_iteration.c" />
     <ClCompile Include="power_recursion.c" />
     <ClCompile Include="structure_ex.c" />
