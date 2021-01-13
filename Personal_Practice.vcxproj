@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Bubble_Sort.c" />
+    <ClCompile Include="Bubble_Sort_2.c" />
     <ClCompile Include="factorial_iteration.c">
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
     </ClCompile>
