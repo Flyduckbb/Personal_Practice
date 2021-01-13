@@ -150,6 +150,7 @@
     <ClCompile Include="fib_iteration.c" />
     <ClCompile Include="fib_recursion.c" />
     <ClCompile Include="hanoi_tower.c" />
+    <ClCompile Include="Insertion_Sort.c" />
     <ClCompile Include="matrix1.c" />
     <ClCompile Include="matrix2.c" />
     <ClCompile Include="polynomial1.c" />
