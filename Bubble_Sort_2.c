@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 bubbleSort(int A[], int n)
@@ -36,4 +36,4 @@ int main(void)
 		printf("%d ", num[i]);
 
 	return 0;
-}
+}*/
