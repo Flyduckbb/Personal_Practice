@@ -157,6 +157,7 @@
     <ClCompile Include="polynomial2.c" />
     <ClCompile Include="power_iteration.c" />
     <ClCompile Include="power_recursion.c" />
+    <ClCompile Include="p_swap.c" />
     <ClCompile Include="structure_ex.c" />
     <ClCompile Include="개인연습1일차.c" />
     <ClCompile Include="개인연습2일차.c" />
