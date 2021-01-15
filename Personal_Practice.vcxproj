@@ -153,6 +153,7 @@
     <ClCompile Include="Insertion_Sort.c" />
     <ClCompile Include="matrix1.c" />
     <ClCompile Include="matrix2.c" />
+    <ClCompile Include="Merge_Sort.c" />
     <ClCompile Include="polynomial1.c" />
     <ClCompile Include="polynomial2.c" />
     <ClCompile Include="power_iteration.c" />
