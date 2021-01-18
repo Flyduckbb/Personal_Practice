@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
 
@@ -22,4 +22,4 @@ int main(void)
 
 	free(p);
 	return 0;
-}
+}*/
