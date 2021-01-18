@@ -151,6 +151,7 @@
     <ClCompile Include="fib_recursion.c" />
     <ClCompile Include="hanoi_tower.c" />
     <ClCompile Include="Insertion_Sort.c" />
+    <ClCompile Include="malloc_ex_1.c" />
     <ClCompile Include="matrix1.c" />
     <ClCompile Include="matrix2.c" />
     <ClCompile Include="Merge_Sort.c" />
