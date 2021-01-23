@@ -84,5 +84,8 @@
     <ClCompile Include="malloc_ex_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Quick_Sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
