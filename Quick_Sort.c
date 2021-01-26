@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #define SIZE 10
 
@@ -50,4 +50,4 @@ int main(void)
 		printf("%d ", num[i]);
 
 	return 0;
-}
+}*/

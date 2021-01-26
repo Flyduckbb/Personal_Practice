@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #define SIZE 6
 
@@ -26,4 +26,4 @@ int main(void)
 		printf("%d ", arry[i]);
 
 	return 0;
-}
+}*/

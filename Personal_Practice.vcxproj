@@ -152,6 +152,7 @@
     <ClCompile Include="hanoi_tower.c" />
     <ClCompile Include="Heap_Sort.c" />
     <ClCompile Include="Insertion_Sort.c" />
+    <ClCompile Include="Integer_Arry_Stack.c" />
     <ClCompile Include="malloc_ex_1.c" />
     <ClCompile Include="malloc_ex_2.c" />
     <ClCompile Include="matrix1.c" />

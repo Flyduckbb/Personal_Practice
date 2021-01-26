@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdio.h>
 
 partition(int B[], int pp, int rr)
@@ -20,4 +20,4 @@ partition(int B[], int pp, int rr)
 	B[rr] = b;
 
 	return i + 1;
-}
+}*/
