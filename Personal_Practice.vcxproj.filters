@@ -93,8 +93,5 @@
     <ClCompile Include="Heap_Sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Integer_Arry_Stack.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
