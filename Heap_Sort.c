@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define SIZE 6
 
-heapSort(int A[], int n)
+int heapSort(int A[], int n)
 {
 	buildHeap(A, n);
 	for (int i = n; i > 1; i--)
@@ -14,18 +14,37 @@ heapSort(int A[], int n)
 	}
 }
 
-buildHeap(int B[], int m)
+int buildHeap(int B[], int m)
 {
 	for (int i = (m / 2); i >= 0; i--)
 		heapify(B, i, m);
 }
 
-heapify(int C[], int k, int o)
+int heapify(int C[], int k, int o)
 {
 	int left = 2*k;
 	int right = 2 * k + 1;
+	int smaller = 0;
 
+	if (right <= o)
+	{
+		if (C[left] <= C[right])
+			smaller = left;
+		else
+			smaller = right;
+	}
+	else if (left <= o)
+		smaller = left;
+	else
+		return;
 
+	if (C[smaller] < C[k])
+	{
+		int s = C[k];
+		C[k] = C[smaller];
+		C[smaller] = s;
+		heapify(C, smaller, o);
+	}
 
 }
 
