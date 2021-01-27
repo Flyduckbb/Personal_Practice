@@ -7,8 +7,26 @@ heapSort(int A[], int n)
 	buildHeap(A, n);
 	for (int i = n; i > 1; i--)
 	{
-
+		int a = A[0];
+		A[0] = A[i];
+		A[i] = a;
+		heapify(A, 0, i - 1);
 	}
+}
+
+buildHeap(int B[], int m)
+{
+	for (int i = (m / 2); i >= 0; i--)
+		heapify(B, i, m);
+}
+
+heapify(int C[], int k, int o)
+{
+	int left = 2*k;
+	int right = 2 * k + 1;
+
+
+
 }
 
 int main(void)
