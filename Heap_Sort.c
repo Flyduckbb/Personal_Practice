@@ -2,7 +2,7 @@
 
 void heapify(int* arr, int size)
 {
-	for (int i = 1; i < size; ++i)
+	for (int i = 1; i < size; i++)
 	{
 		int child = i;
 		do {
@@ -31,13 +31,13 @@ int main(void)
 	int size = 10;
 	int arry[10] = { 5,6,10,4,3,8,7,1,2,9 };
 
-	for (int i = 0; i < 10; ++i)
+	for (int i = 0; i < 10; i++)
 	{
 		heapify(arry, size);
 		heap(arry, &size);
 	}
 
-	for (int i = 0; i < 10; ++i)
+	for (int i = 0; i < 10; i++)
 		printf("%d ", arry[i]);
 
 	return 0;
