@@ -1,65 +1,43 @@
 #include <stdio.h>
-#include <stdlib.h>
-#define SIZE 6
 
-int heapSort(int A[], int n)
+void heapify(int* arr, int size)
 {
-	buildHeap(A, n);
-	for (int i = n; i > 1; i--)
+	for (int i = 1; i < size; ++i)
 	{
-		int a = A[0];
-		A[0] = A[i];
-		A[i] = a;
-		heapify(A, 0, i - 1);
+		int child = i;
+		do {
+			int root = (child - 1) / 2;
+			if (arr[root] < arr[child])
+			{
+				int temp = arr[root];
+				arr[root] = arr[child];
+				arr[child] = temp;
+			}
+			child = root;
+		} while (child != 0);
 	}
 }
 
-int buildHeap(int B[], int m)
+void heap(int* arry, int* size)
 {
-	for (int i = (m / 2); i >= 0; i--)
-		heapify(B, i, m);
-}
-
-int heapify(int C[], int k, int o)
-{
-	int left = 2*k;
-	int right = 2 * k + 1;
-	int smaller = 0;
-
-	if (right <= o)
-	{
-		if (C[left] <= C[right])
-			smaller = left;
-		else
-			smaller = right;
-	}
-	else if (left <= o)
-		smaller = left;
-	else
-		return;
-
-	if (C[smaller] < C[k])
-	{
-		int s = C[k];
-		C[k] = C[smaller];
-		C[smaller] = s;
-		heapify(C, smaller, o);
-	}
-
+	int temp = arry[0];
+	arry[0] = arry[*size - 1];
+	arry[*size - 1] = temp;
+	--(*size);
 }
 
 int main(void)
 {
-	int arry[SIZE] = { 3,6,4,8,9,7 };
+	int size = 10;
+	int arry[10] = { 5,6,10,4,3,8,7,1,2,9 };
 
-	printf("정렬 전 이진 트리\n");
-	for (int i = 0; i < SIZE; i++)
-		printf("%d ", arry[i]);
+	for (int i = 0; i < 10; ++i)
+	{
+		heapify(arry, size);
+		heap(arry, &size);
+	}
 
-	heapSort(arry, SIZE - 1);
-
-	printf("\n정렬 후 이진 트리\n");
-	for (int i = 0; i < SIZE; i++)
+	for (int i = 0; i < 10; ++i)
 		printf("%d ", arry[i]);
 
 	return 0;

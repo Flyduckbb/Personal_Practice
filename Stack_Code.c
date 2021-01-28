@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #define MAX_STACK_SIZE 100
 
@@ -61,4 +61,4 @@ int main(void)
 	printf("%d\n", pop(&s));
 	printf("%d\n", pop(&s));
 	printf("%d\n", pop(&s));
-}
+}*/
