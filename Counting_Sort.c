@@ -5,12 +5,12 @@ void counting_sort(int* arr, int size) {
 
 	int count[max];
 	for (int i = 0; i < max; i++) {
-		count[i] = 0; // 초기화 
+		count[i] = 0;
 	}
 
 	for (int i = 0; i < size; i++) {
 		int val = arr[i];
-		count[val]++; // 개수 세기 
+		count[val]++;
 	}
 
 	for (int i = 0; i < max; i++) {
