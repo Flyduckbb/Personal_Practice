@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 void heapify(int* arr, int size)
 {
@@ -41,4 +41,4 @@ int main(void)
 		printf("%d ", arry[i]);
 
 	return 0;
-}
+}*/

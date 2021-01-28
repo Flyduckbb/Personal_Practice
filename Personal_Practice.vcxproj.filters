@@ -96,5 +96,8 @@
     <ClCompile Include="Stack_Code.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Counting_Sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
