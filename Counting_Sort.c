@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 # define max 30
 
 void counting_sort(int* arr, int size) {
@@ -28,4 +28,4 @@ int main() {
 	counting_sort(arr, size);
 
 	return 0;
-}
+}*/
