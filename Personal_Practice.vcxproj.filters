@@ -105,5 +105,8 @@
     <ClCompile Include="Linear_Sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Static_Array_Code.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

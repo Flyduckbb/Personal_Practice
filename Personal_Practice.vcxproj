@@ -169,6 +169,7 @@
     <ClCompile Include="Radix_Sort.c" />
     <ClCompile Include="Linear_Sort.c" />
     <ClCompile Include="Stack_Code.c" />
+    <ClCompile Include="Static_Array_Code.c" />
     <ClCompile Include="structure_ex.c" />
     <ClCompile Include="개인연습1일차.c" />
     <ClCompile Include="개인연습2일차.c" />
