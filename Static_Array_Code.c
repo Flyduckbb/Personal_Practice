@@ -29,7 +29,7 @@ int is_full(StackType* s)
 void push(StackType* s, element item)
 {
 	if (is_full(s)) {
-		s->capacity *= 1;
+		s->capacity *= 2;
 		s->data = (element*)realloc(s->data, s->capacity * sizeof(element));
 	}
 	s->data[++(s->top)] = item;
